@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job post</title>
+</head>
+<body>
+    <header>
+        <h1>Post a new job</h1>
+        <p>fill the details below to publish a job</p>
+
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2>Company Information</h2>
+            <form>
+                <label for="name">Company Name</label>
+                <input id="name" type="text" required><br><br>
+                <label for="description">Company description</label>
+                <textarea id="description"></textarea>
+            </form>
+        </section>
+        <HR>
+        <SECTION>
+            <h2>Job Details </h2>
+            <label for="title">Job Title</label>
+            <input id="title" type="type" required><br><br>
+            <label for="category">Job Category</label>
+            <select>
+                <option disabled selected>select an option</option>
+                <option>IT</option>
+                <option>Marketing</option>
+                <option>HR</option>
+
+
+            </select><br><br>
+            <label for="type" >Job Type</label>
+            <select>
+                <option disabled selected>--select an option--</option>
+                <option>
+                    city
+
+                </option>
+                <option>Remote</option>
+            </select><br><br>
+            <label for="experience">Experience Rrquired</label>
+            <input id="experience" type="text" required><br><br>
+            <label for="salary">Salary Range</label>
+            <input id="salary" type="number" placeholder="Min Salary">
+            <input id="salary" type="number" placeholder="Max Salary">
+
+        </SECTION><HR>
+        <section>
+            <h2>Job Desrciption</h2>
+            <label for="job description">Enter the job description</label>
+            <textarea id="job description" placeholder="roles and responsibilities,Required skills,Qualifications"></textarea>
+        </section><br><br>
+        <section>
+            <h2>Application Details</h2>
+            <form>
+                <label for="deadline">Application Deadline</label>
+                <input id="deadline" type="date" required><br><br>
+                <label for="recieve">Email</label>
+                <input id="recieve" type="email" required>
+                <br><br>
+                
+
+            </form>
+
+        </section><HR>
+       
+          <section>
+            <h3>Recruiter Contact Information</h3>
+
+<label for="name">Recruiter Name</label><br>
+<input id="name" type="text" placeholder="Enter your name"><br><br>
+
+<label>Email Address</label><br>
+<input type="email" placeholder="Enter your email"><br><br>
+
+<label for="phnno">Phone Number</label><br>
+<input id="phnno" type="tel" placeholder="Enter your phone number"><br><br>
+       </section>
+       <button>POST JOB</button>
+       <button>RESET</button>
+       
+    </main>
+</body>
+</html>
