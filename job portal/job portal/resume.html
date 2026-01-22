@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+<style>
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        main {
+            background-color: white;
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select {
+            padding: 5px;
+            width: 60%;
+            margin-top: 5px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 8px 15px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+
+        hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1><center>UPLOAD YOUR RESUME</center></h1>
+        <H2><center>Upload your resume and let empolyers find you easily</center></H2>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h3>Personal Details</h3>
+            <form>
+                <label for="name">Enter your name</label><br>
+                <input id="name" type="text" required><br><br>
+                <label for="email">Enter your email</label><br>
+                <input id="email" type="email" required><br><br>
+                <label for="number" >Enter your Phone Number</label><br>
+                <input id="number" type="number" required><br><br>
+                <label for="location" >Enter Location</label><br>
+                <input id="location" type="text" required><br><br>
+                <label for="role">Enter Desired position</label>
+                <select>
+                    <option disabled selected>Select role</option>
+                    <option>Software Developer</option>
+                    <option>Data Analyst</option>
+                    <option>Web Designer</option>
+                    <option>UI/UX Designer</option>
+                </select>
+            </form>
+<hr>
+        </section>
+        <section>
+            <h3>Resume Upload</h3>
+            <label for="upload" >Upload your resume(PDF/DOC/DOCX)</label>
+            <input id="upload" type="file" >
+
+        </section>
+        <hr>
+        <section>
+            <h3>Skills</h3>
+            <p>Add your key skills:</p>
+
+<input type="checkbox"> Web Development <br>
+<input type="checkbox"> Python <br>
+<input type="checkbox"> Data Analysis <br>
+<input type="checkbox"> Java <br>
+<input type="checkbox"> C++ <br>
+</section><hr>
+<section>
+    <h3>Experience</h3>
+    <select>
+        <option disabled selected>Select option</option>
+        <option>Fresher</option>
+        <option>1-2 years</option>
+        <option>3-5 years</option>
+        <option>5+ years</option>
+    </select>
+</section><hr>
+<section>
+    <h3>Education</h3>
+    <label>Highest Qualification</label>
+<select>
+  <option>Select qualification</option>
+  <option>High School</option>
+  <option>Diploma</option>
+  <option>Bachelor's Degree</option>
+  <option>Master's Degree</option>
+</select>
+
+<label> University Name</label>
+<input type="text" placeholder="Enter your college/university name">
+<br>
+<label>Passing Year</label>
+<input type="number" placeholder="e.g. 2024">
+
+</section>
+<section>
+   <button>UPLOAD RESUME</button>
+   <a href="home.html"><button>Back</button></a>
+    
+</section>
+    </main>
+</body>
+</html>
