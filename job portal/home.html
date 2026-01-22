@@ -12,34 +12,44 @@
         <h2>Search.Applied.Succeed</h2>
         <hr>
         <nav>
-            <a href="/home.html">HOME</a>
-              <a href="/JOBS.html">FIND JOBS</a>
-                <a href="/companies.html">COMPANIES</a>
-                  <a href="/INTERNSHIP.html">INTERNSHIPS</a>
-                  <br><br>
-                  <a href="post-job.html"><button>POST JOB</button></a>
-                 <button>Upload resume</button>
-                  <button>login</button>
-                  <button>signup</button>
+    <div class="nav-left">
+        <a href="post-job.html"><button>POST JOB</button></a>
+        <button>Upload resume</button>
+        <button>login</button>
+        <button>signup</button>
+    </div>
 
+    <div class="nav-right">
+        <a href="/home.html">HOME</a>
+        <a href="/JOBS.html">FIND JOBS</a>
+        <a href="/companies.html">COMPANIES</a>
+        <a href="/INTERNSHIP.html">INTERNSHIPS</a>
+    </div>
+</nav>
 
-
-        </nav>
         <hr>
     </header>
     <main>
+        <div class="hero">
+            <div class="hero-image">
     
-        <h1>Find your dream job today</h1>
+        <h1 style="font-size: 50px; white-space: nowrap; ">Find your dream job today</h1>
         <p>
-            Explore thousands of job from top companies across the world.
+           At Job Sphere, we help you discover the best career opportunities from top companies across the globe. Whether you are a fresher, a working professional, or someone looking for a career change, our platform makes job searching simple, fast, and reliable. Explore verified listings, apply with confidence, and take the next step toward your dream career today.
         </p>
-        <img src="https://media.licdn.com/dms/image/v2/D5612AQHmWpsKqCEUgQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1692110377639?e=2147483647&v=beta&t=8o8pbq1bZtrQjOZxyCis8GkK8FtHx38WqMoea3qjPB0" alt="job portal image ">
+        </div>
+        <div class="hero-image"></div>
+        <img src="https://media.licdn.com/dms/image/v2/D5612AQHmWpsKqCEUgQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1692110377639?e=2147483647&v=beta&t=8o8pbq1bZtrQjOZxyCis8GkK8FtHx38WqMoea3qjPB0" alt="job portal image " style="padding: 65px 102PX;">
+        </div>
 
+    </div>
+    
+<hr>
 
         <form>
         <label for="search">Search</label>
         <input id="search" name="search" type="search" placeholder="job title,skills,company">
-        <br><br>
+        <br><br><br>
 
         <label for="location">Location</label>
             <select>
@@ -53,7 +63,7 @@
             </option>
             <option>Remote area</option>
         </select>
-        <br><br>
+        <br><br><br>
         <label for="Experience">Experience level</label>
         
         <select>
@@ -62,7 +72,7 @@
             <option>1-3 years</option>
             <option>3-5 years</option>
             <option>5+ years</option>
-        </select><br><br>
+        </select><br><br><br>
     
       
         <div>
@@ -70,54 +80,55 @@
   <input type="number" placeholder="Min Salary">
   <input type="number" placeholder="Max Salary">
 </div>
-<BR>
-<Button>SEARCH JOB</Button>
-<HR>
+<BR><br><br>
+
+    <Button>SEARCH JOB</Button>
+
+
+<hr>
 
 
 
         
 
         </form>
-        <SECTION>
-            <h2>Latest job openings</h2>
-            <div>
-                <h3>Software developer</h3>
-                <h4>google</h4>
-                <p>location-bangalore</p>
-                <p>full time job</p>
-                <p>
-                    18-20 LPA
-                
-                </p>
-                <button>apply</button>
-                <button>save job</button>
-            </div>
-            <div>
-                <h3>Data analyst</h3>
-                <h4>Amazon</h4>
-                <p>location-delhi</p>
-                <p>part-time</p>
-                <p>
-                    23-26 LPA
-                </p>
-                <button>apply</button>
-                <button>save job</button>
-            </div>
-             <div>
-                <h3>Web designer</h3>
-                <h4>TCS</h4>
-                <p>locatioN-Bangalore</p>
-                <p>internship</p>
-                <p>
-                    3-6 LPA
-                </p>
-                <button>apply</button>
-                <button>save job</button>
-            </div>
-            <BR><BR>
-            <BUTTON>VIEW ALL JOBS</BUTTON>
+        <hr>
+        <SECTION >
+            <div class="job">
+            <h2 style="justify-content: center;display: flex; font-size: 50px;">Latest job openings</h2>
+            <div class="jobs-container">
 
+    <div class="job-card">
+        <h3>Software developer</h3>
+        <h4>Google</h4>
+        <p>Location: Bangalore</p>
+        <p>Full time job</p>
+        <p>18–20 LPA</p>
+        <button>Apply</button>
+        <button>Save Job</button>
+    </div>
+
+    <div class="job-card">
+        <h3>Data analyst</h3>
+        <h4>Amazon</h4>
+        <p>Location: Delhi</p>
+        <p>Part-time</p>
+        <p>23–26 LPA</p>
+        <button>Apply</button>
+        <button>Save Job</button>
+    </div>
+
+    <div class="job-card">
+        <h3>Web designer</h3>
+        <h4>TCS</h4>
+        <p>Location: Bangalore</p>
+        <p>Internship</p>
+        <p>3–6 LPA</p>
+        <button>Apply</button>
+        <button>Save Job</button>
+    </div>
+
+</div>
 
         </SECTION>
         
