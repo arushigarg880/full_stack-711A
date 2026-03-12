@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student task manager</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            
+        }
+        body{
+            background-color:darkgray;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+        }
+        label{
+            color:black;
+            
+        }
+        input,select{
+          font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+
+
+        }
+        button{
+            font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+        }
+        #add{
+    background-color:;
+    color: black;
+}
+
+#all{
+    background-color: #ffffff;
+    color: black;
+}
+
+#completed{
+    background-color: #ffffff;
+    color: black;
+}
+
+#pending{
+    background-color: #ffffff;
+    color: black;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1><center>Student Task Manager</center></h1>
+    <form><center>
+    <label>Enter task</label>
+    <input type="text" id="taskinp" placeholder="Enter task">
+    <br><br>
+    <label>Select priority</label>
+    <select id="prior"">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+       <option value="High">High</option>
+       
+
+    </select>
+    <br><br>
+     <button type="button" id="add">Add Task</button>
+
+<button type="button" id="all">Show All</button>
+<button type="button" id="completed">Completed</button>
+<button type="button" id="pending">Pending</button>
+<ul id="taskList"></ul>
+<script src="script.js"></script>
+</center>
+</form>
+
+</body>
+</html>
